@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.edukasianak">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="CAKRA.IND"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar.Fullscreen">
+        <activity
+            android:name=".utama.loading.Loading1"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".utama.loading.Loading2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".utama.loading.Loading3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".utama.Welcome"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".utama.Home"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".isi.Video"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".isi.Tentang"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".isi.sejarah.Sejarah1"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".isi.sejarah.Sejarah2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".isi.sejarah.Sejarah3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".isi.game.Game1"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".isi.game.Game2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".isi.game.Game3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".isi.game.Game4"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".isi.game.Game5"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".isi.game.Game6"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".isi.game.Game7"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".isi.game.Game8"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".isi.game.Game9"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".isi.game.Game10"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".isi.game.Game11"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".isi.game.Game12"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".isi.game.Game13"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".isi.game.Game14"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".isi.game.Game15"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".isi.game.Game16"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".isi.game.Game17"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".isi.game.Game18"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".isi.game.Game19"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".isi.game.Game20"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".isi.game.Skor1"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".isi.game.Skor2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".isi.game.Skor3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".isi.game.Skor4"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".isi.game.Hasil"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".utama.Keluar"
+            android:screenOrientation="landscape" />
+    </application>
+
+</manifest>

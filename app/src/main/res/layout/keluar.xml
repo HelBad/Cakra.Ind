@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_home"
+    tools:context=".utama.Keluar">
+    <TextView
+        android:id="@+id/namaKeluar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="75dp"
+        android:layout_marginVertical="15dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorChoco"
+        android:fontFamily="@font/brightly_crush_shine"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="500dp"
+            android:layout_height="150dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/img_keluar">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Badhe Medal ?"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/brightly_crush_shine"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+            <RelativeLayout
+                android:id="@+id/noKeluar"
+                android:layout_width="0dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:background="@drawable/img_keluar">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_marginHorizontal="10dp"
+                    android:text="Mboten"
+                    android:textSize="20dp"
+                    android:textColor="#DD0000"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/brightly_crush_shine"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/yesKeluar"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="@drawable/img_keluar">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="10dp"
+                    android:gravity="center"
+                    android:text="Nggih"
+                    android:textSize="20dp"
+                    android:textColor="#009900"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/brightly_crush_shine"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

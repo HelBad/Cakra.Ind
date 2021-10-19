@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_game_tha"
+    tools:context=".isi.game.Game19">
+    <RelativeLayout
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/img_nomor">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="19"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/brightly_crush_shine"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="55dp"
+            android:layout_marginLeft="45dp">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1">
+                <ImageView
+                    android:id="@+id/pilihanA19"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/img_pilihan_nga" >
+                </ImageView>
+
+                <ImageView
+                    android:id="@+id/hasilA19"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/img_salah"
+                    android:visibility="gone">
+                </ImageView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1">
+                <ImageView
+                    android:id="@+id/pilihanB19"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/img_pilihan_wa" >
+                </ImageView>
+
+                <ImageView
+                    android:id="@+id/hasilB19"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/img_salah"
+                    android:visibility="gone">
+                </ImageView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1">
+                <ImageView
+                    android:id="@+id/pilihanC19"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/img_pilihan_tha" >
+                </ImageView>
+
+                <ImageView
+                    android:id="@+id/hasilC19"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/img_benar"
+                    android:visibility="gone">
+                </ImageView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1">
+                <ImageView
+                    android:id="@+id/pilihanD19"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/img_pilihan_sa" >
+                </ImageView>
+
+                <ImageView
+                    android:id="@+id/hasilD19"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/img_salah"
+                    android:visibility="gone">
+                </ImageView>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="13dp"
+            android:layout_marginRight="55dp"
+            android:layout_marginLeft="45dp">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1">
+                <ImageView
+                    android:id="@+id/pilihanE19"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/img_pilihan_na" >
+                </ImageView>
+
+                <ImageView
+                    android:id="@+id/hasilE19"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/img_salah"
+                    android:visibility="gone">
+                </ImageView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1">
+                <ImageView
+                    android:id="@+id/pilihanF19"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/img_pilihan_nya" >
+                </ImageView>
+
+                <ImageView
+                    android:id="@+id/hasilF19"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/img_salah"
+                    android:visibility="gone">
+                </ImageView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1">
+                <ImageView
+                    android:id="@+id/pilihanG19"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/img_pilihan_ha" >
+                </ImageView>
+
+                <ImageView
+                    android:id="@+id/hasilG19"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/img_salah"
+                    android:visibility="gone">
+                </ImageView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1">
+                <ImageView
+                    android:id="@+id/pilihanH19"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/img_pilihan_ya" >
+                </ImageView>
+
+                <ImageView
+                    android:id="@+id/hasilH19"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/img_salah"
+                    android:visibility="gone">
+                </ImageView>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/nextGame19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lanjut"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/brightly_crush_shine"/>
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:src="@drawable/icon_next_1"/>
+    </LinearLayout>
+</RelativeLayout>
